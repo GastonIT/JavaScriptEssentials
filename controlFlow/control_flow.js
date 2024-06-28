@@ -22,3 +22,4 @@ if (isLoggedIn) {
 } else {
     userMessage = "Please log in to access the system.";
 }
+console.log("User Message:", userMessage);
