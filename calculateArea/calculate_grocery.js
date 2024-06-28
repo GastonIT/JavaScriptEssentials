@@ -1,12 +1,12 @@
-let grocery-1;
-let grocery-2;
-let grocery-3;
+let amount1;
+let amount2;
+let amount3;
 
 function CalculateAmount() {
-    amount1 = parseFloat(document.getElementById('grocery-1').value);
-    amount2 = parseFloat(document.getElementById('grocery-2').value);
-    amount3 = parseFloat(document.getElementById('grocery-3').value);
+    amount1 = parseFloat(document.getElementById('amount1').value);
+    amount2 = parseFloat(document.getElementById('amount2').value);
+    amount3 = parseFloat(document.getElementById('amount3').value);
 
-    let total = grocery-1 + grocery-2 + grocery-3;
+    let total = amount1 + amount2 + amount3;
     document.getElementById('result').innerText = `The area of the rectangle is: ${total}`;
 }
