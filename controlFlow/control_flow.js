@@ -9,3 +9,6 @@ if (userRole === "admin") {
     accessLevel = "No access granted";
 }
 console.log("Access Level:", accessLevel);
+
+let isLoggedIn = true;
+let userMessage;
