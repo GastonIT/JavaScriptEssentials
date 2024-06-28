@@ -20,5 +20,8 @@ function displayCount() {
 
   function CountReset() {
     count = 0;
-    document.getElementById('countDisplay').innerHTML = count;
+    document.getElementById('countDisplay').innerHTML = count; {
+        alert("The counter has been set to 0");
+    }
+    
   }
