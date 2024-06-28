@@ -19,5 +19,5 @@ function displayCount() {
   }
 
 function Countreset() {
-        let count = 0;
+        count = 0;
 }
