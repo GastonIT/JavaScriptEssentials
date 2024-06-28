@@ -18,6 +18,7 @@ function displayCount() {
     }
   }
 
-function Countreset() {
-        count = 0;
-}
+  function CountReset() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
+  }
