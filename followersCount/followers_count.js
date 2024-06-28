@@ -16,4 +16,8 @@ function displayCount() {
     } else if (count === 20) {
       alert("Your Instagram post gained 20 followers! Keep it up!");
     }
-  }  
+  }
+
+function Countreset() {
+        let count = 0;
+}
