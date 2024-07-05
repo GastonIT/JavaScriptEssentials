@@ -32,3 +32,14 @@ function findEmployeeById(employeeId) {
 
     }
 }
+
+function findEmployeeBySpec(employeeSpec) {
+    const foundEmployee = employees.find(employee => employee.specialization === employeeSpec);
+    if (foundEmployee) {
+    document.getElementById('employeesDetails').innerHTML =`<p>${foundEmployee.specialization}: ${foundEmployee.name}: ${foundEmployee.name} - ${foundEmployee.department} - $${foundEmployee.salary}</p>`;
+    }
+    else{
+      document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this Specialization';
+
+    }
+}
